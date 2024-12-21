@@ -11,7 +11,7 @@
   </head>
   <body>
     <header class="header">
-      <nav class="header-nav">
+      <nav class="header-nav nav-font">
         <ul class="header-nav-list">
           <li class="header-nav-list-elment no-style-type">
             <a class="header-nav-list-link nav-link" href="#">главная</a>
@@ -27,7 +27,7 @@
       <a href="#" class="header-logo">
         <img class="header-logo-img" src="images/logo-black.svg" alt="Логотип сайта">
       </a>
-      <address class="contacts">
+      <address class="contacts contacts-font">
         <ul class="contacts-list">
           <li class="contacts-list-elment">
             <a class="contacts-link-tel" href="tel:+99995555555">+9 999 555 5555</a>
@@ -41,7 +41,7 @@
         </ul> 
       </address>
     </header>
-    <main>
+    <main class="main_content">
       <section class="cover sub_theme">
         <div class="overlay">
           <h1 class="title-banner">
@@ -51,72 +51,78 @@
           </h1>
           <div class="cover-footer">
            <p class="subtitle">Аукцион вещей, в которые никто не верил</p>
-           <button class="make-stavka">Сделать ставку</button>
+           <button class="cover-button">Сделать ставку</button>
           </div>
         </div>
       </section>
-      <section class="lots">
-        <h2 class="lots-title section-title">Лоты</h2>
-        <ul class="lots-list no-style-type">
-          <li class="lot-card">
-            <a href="#" class="lot-card-link">
-              <article class="lot-card-info">
-                <h3 class="lot-card-title">Фильм режиссёра, который бросил киношколу</h3>
-                <p class="lot-card-text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, 
-                  если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-                </p>
-              </article>
-            </a>
-          </li>
-          <li class="lot-card">
-            <a href="#" class="lot-card-link">
-              <article class="lot-card-info">
-                <h3 class="lot-card-title">Книга, где описан один скучный день из жизни рекламного агента</h3>
-                <p class="lot-card-text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. 
-                  В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. 
-                  И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
-                </p>
-              </article>
-            </a>
-          </li>
-          <li class="lot-card">
-            <a href="#" class="lot-card-link">
-              <article class="lot-card-info">
-                <h3 class="lot-card-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-                <p class="lot-card-text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. 
-                  Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, 
-                  что это — одна из революционных работ Кандинского?
-                </p>
-              </article>
-            </a>
-          </li>
-        </ul>
-        <a href="#" class="lots-more">посмотреть больше</a>
-      </section>
-      <section class="about">
-        <a href="#" class="about-logo">
-          <img class="about-logo-img" src="images/logo-white.svg" alt="Логотип сайта">
-        </a>
-        <article class="about-info">
-          <h2 class="about-title section-title">Об аукционе</h2>
-          <p class="about-text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
-            Наши лоты вообще не должны были попасть ни на один аукцион. 
-            Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? 
-            Кому нужны все эти странные вещи, созданные любителями?
-          </p>
-          <p class="about-text">Слишком сложные или, наоборот, слишком простые. 
-            Опережающие своё время. 
-            В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. 
-            Но, несмотря
-            на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. 
-            Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
-          </p>
-        </article>
-      </section>
+      <div class="content">
+        <section class="lots">
+          <h2 class="lots-title section-title">Лоты</h2>
+          <ul class="lots-list no-style-type sub_theme">
+            <li class="lot-card">
+              <a href="#" class="lot-card-link">
+                <!--<img class="lot-card-link-img" src="images/card-lot-01.jpg" alt="Кадр из фильма">-->
+                <article class="lot-card-info">
+                  <h3 class="lot-card-title">Фильм режиссёра, который бросил киношколу</h3>
+                  <p class="lot-card-text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, 
+                    если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                  </p>
+                </article>
+              </a>
+            </li>
+            <li class="lot-card">
+              <a href="#" class="lot-card-link">
+                <!--<img class="lot-card-link-img" src="images/card-lot-02.jpg" alt="Обложка книги">-->
+                <article class="lot-card-info">
+                  <h3 class="lot-card-title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                  <p class="lot-card-text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. 
+                    В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. 
+                    И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+                  </p>
+                </article>
+              </a>
+            </li>
+            <li class="lot-card">
+              <a href="#" class="lot-card-link">
+                <!--<img class="lot-card-link-img" src="images/card-lot-03.jpg" alt="Картина Кандинского">-->
+                <article class="lot-card-info">
+                  <h3 class="lot-card-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                  <p class="lot-card-text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. 
+                    Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, 
+                    что это — одна из революционных работ Кандинского?
+                  </p>
+                </article>
+              </a>
+            </li>
+          </ul>
+          <a href="#" class="lots-more">посмотреть больше</a>
+        </section>
+        <section class="about">
+          <a href="#" class="about-logo">
+            <img class="about-logo-img" src="images/logo-white.svg" alt="Логотип сайта">
+          </a>
+          <article class="about-info">
+            <h2 class="section-title about-title">Об аукционе</h2>
+
+            <p class="about-text about-start-paragraph">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
+              Наши лоты вообще не должны были попасть ни на один аукцион. 
+              Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? 
+              Кому нужны все эти странные вещи, созданные любителями?
+            </p>
+            <p class="about-text">Слишком сложные или, наоборот, слишком простые. 
+              Опережающие своё время. 
+              В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. 
+              Но, несмотря
+              на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. 
+              Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
+            </p>
+          </article>
+        </section>
+      </div>
     </main>
     <footer class="footer">
-      <address class="contacts contacts-footer">
-        <ul class="contacts-list">
+      <address class="contacts-font contacts-footer">
+        <ul class="contacts-list footer-list-contacts">
           <li class="contacts-list-elment">
             <a class="contacts-link-tel" href="tel:+99995555555">+9 999 555 5555</a>
           </li>
@@ -128,7 +134,7 @@
           </li>
         </ul> 
       </address>
-      <nav class="footer-nav">
+      <nav class="footer-nav nav-font">
         <ul class="footer-navv-list no-style-type">
           <li class="footer-nav-list-elment">
             <a class="footer-nav-list-link nav-link" href="#">главная</a>
