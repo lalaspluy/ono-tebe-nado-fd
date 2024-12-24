@@ -40,7 +40,7 @@
 .contacts-font {
   font-size: 18px;
   font-style: normal;
-  line-height: 24px;
+  line-height: 24.5px;
   text-underline-offset: 0.2em;
 }
 
@@ -257,9 +257,8 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  height: 180px;
   margin-top: 180px;
-  padding: 0 50px;
+  padding: 0 50px 82px 50px;
 }
 
 .footer__contacts {
